@@ -1,0 +1,98 @@
+<?php
+$temp_layer=array(
+	'0'=>array(
+		'class'=>'',
+		'type'=>'fullbackground',
+		'style'=>array(
+			'font'=>array(
+				'font-size'=>'',
+				'font-family'=>'',
+				'weight'=>'',
+				'color'=>'#363636',
+			),
+			'link_color'=>'#a1a1a1',
+			'background_color'=>array(
+				'color1'=>'#ffffff',
+				'color2'=>'#f2f2f2',
+			),
+			'background_image'=>array(
+				'position'=>'center center',
+				'repeat'=>'no-repeat',
+				'image'=>'',
+			),
+			'border-top'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'border-bottom'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'padding_top'=>'40',
+			'padding_bottom'=>'30',
+		),
+		'content'=>array(
+			'0'=>array(
+				'type'=>'',
+				'class'=>'',
+				'content'=>array(
+					'0'=>array(
+						'type'=>'text',
+						'content'=>'<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id consectetur felis, eget rhoncus purus.</p>',
+						'style'=>array(
+							'font'=>array(
+								'font-size'=>'',
+								'font-family'=>'',
+								'weight'=>'',
+								'color'=>'',
+							),
+							'li'=>'1',
+						),
+					),
+					'1'=>array(
+						'type'=>'member_login',
+						'content'=>'',
+						'style'=>array(
+							'input-style'=>'8',
+							'form-font'=>array(
+								'font-size'=>'14',
+								'color'=>'',
+							),
+							'background'=>'#f0f0f0',
+							'button'=>array(
+								'style'=>'8',
+								'font'=>array(
+									'font-size'=>'22',
+									'font-family'=>'',
+									'weight'=>'',
+									'color'=>'#ffffff',
+									'text-shadow'=>'none',
+								),
+								'background_color'=>array(
+									'color1'=>'#007ea6',
+									'color2'=>'#006587',
+								),
+								'corner'=>'6',
+								'border-color'=>'',
+							),
+						),
+					),
+				),
+			),
+		),
+	),
+);
+$config['layer']=base64_encode(serialize($temp_layer));
+
+$config['setting']=array (  
+ 've_header' => array('show' => 'page', 'appearance'=>'type11', 'logo' =>  get_template_url_image().'/modules/visualeditor/images/default/logo2.png', 'background_color'=>array('color1'=>'','color2'=>''), 'menu_font'=>array('font-family'=>''), 'menu'=>''),
+ 've_footer' => array('show' => 'nofooter'), 
+ 've_appearance' => array('background_image' => array('position' => 'center center', 'repeat' => 'no-repeat', 'cover' => 'cover', 'fixed'=>'fixed', 'image' =>  get_template_url_image().'/modules/member/templates/member/login1/images/background1.jpg')) 
+);
+$config['config']=array(
+  'styles'=>true,
+  'hide_rows'=>true,
+  'body_class'=>'fixed_template'
+);

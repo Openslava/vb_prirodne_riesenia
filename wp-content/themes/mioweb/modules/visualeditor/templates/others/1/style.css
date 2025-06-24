@@ -1,0 +1,10 @@
+#wrapper #content { 
+  margin: 60px auto 20px;
+  width: 90%;
+  max-width: 500px;
+}
+.row_content .row_fix_width {
+  max-width: 100%;
+  padding-left: 7%;
+  padding-right: 7%;
+}

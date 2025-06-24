@@ -1,0 +1,137 @@
+<?php
+$temp_layer=array(
+	'0'=>array(
+		'class'=>'',
+		'style'=>array(
+			'font'=>array(
+				'font-size'=>'',
+				'font-family'=>'',
+				'weight'=>'',
+				'color'=>'',
+			),
+			'link_color'=>'',
+			'background_color'=>array(
+				'color1'=>'#ffffff',
+				'color2'=>'',
+			),
+			'background_image'=>array(
+				'position'=>'center center',
+				'repeat'=>'no-repeat',
+				'image'=>'',
+			),
+			'border-top'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'border-bottom'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'padding_top'=>'45',
+			'padding_bottom'=>'35',
+		),
+		'content'=>array(
+			'0'=>array(
+				'type'=>'col-one',
+				'class'=>'',
+				'content'=>array(
+					'0'=>array(
+						'type'=>'title',
+						'content'=>'<h1 style="text-align: center;">Lorem ipsum dolor sit amet set doma</h1>',
+						'style'=>array(
+							'font'=>array(
+								'font-size'=>'35',
+								'font-family'=>'Open Sans',
+								'weight'=>'700',
+								'color'=>'',
+								'text-shadow'=>'none',
+							),
+						),
+					),
+					'1'=>array(
+						'type'=>'video',
+						'content'=>'',
+						'style'=>array(
+							'response'=>'1',
+							'vwidth'=>'',
+							'height'=>'',
+							'code'=>'',
+							'align'=>'center',
+						),
+					),
+					'2'=>array(
+						'type'=>'text',
+						'content'=>'<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id consectetur felis, eget rhoncus purus.</p>',
+						'style'=>array(
+							'font'=>array(
+								'font-size'=>'',
+								'font-family'=>'',
+								'weight'=>'normal',
+								'color'=>'',
+							),
+							'li'=>'1',
+						),
+					),
+					'4'=>array(
+						'type'=>'seform',
+						'content'=>'',
+						'style'=>array(
+							'form-style'=>'1',
+							'form-look'=>'8',
+							'form-font'=>array(
+								'font-size'=>'18',
+								'color'=>'',
+							),
+							'background'=>'#eeeeee',
+							'button'=>array(
+								'style'=>'1',
+								'font'=>array(
+									'font-size'=>'28',
+									'font-family'=>'',
+									'weight'=>'',
+									'color'=>'#ffffff',
+									'text-shadow'=>'none',
+								),
+								'background_color'=>array(
+									'color1'=>'#d60424',
+									'color2'=>'#c7001e',
+								),
+								'corner'=>'5',
+								'border-color'=>'',
+							),
+							'popupbutton'=>array(
+								'style'=>'1',
+								'font'=>array(
+									'font-size'=>'30',
+									'font-family'=>'',
+									'weight'=>'',
+									'color'=>'#2b2b2b',
+									'text-shadow'=>'none',
+								),
+								'background_color'=>array(
+									'color1'=>'#ffde21',
+									'color2'=>'#ffcc00',
+								),
+								'corner'=>'8',
+								'border-color'=>'',
+							),
+						),
+					),
+				),
+			),
+		),
+	),
+);
+$config['layer']=base64_encode(serialize($temp_layer));
+$config['setting']=array (  
+ 've_header' => array('show' => 'noheader'),
+ 've_footer' => array('show' => 'nofooter'), 
+ 've_appearance' => array('background_image' => array('position' => 'center center', 'repeat' => 'no-repeat', 'cover' => 'cover', 'fixed'=>'fixed', 'image' => get_template_url_image().'/modules/mioweb/images/default/wood_background1.jpg')) 
+);
+$config['config']=array(
+  'styles'=>true,
+  'hide_rows'=>true,
+  'body_class'=>'fixed_template'
+);

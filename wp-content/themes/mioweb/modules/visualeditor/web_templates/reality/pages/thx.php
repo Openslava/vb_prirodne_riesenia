@@ -1,0 +1,157 @@
+<?php
+$temp_layer=array(
+	'0'=>array(
+		'class'=>'',
+		'style'=>array(
+			'background_color'=>array(
+				'color1'=>'#000000',
+				'color2'=>'',
+				'transparency'=>'100',
+			),
+			'background_image'=>array(
+				'cover'=>'cover',
+				'overlay_color'=>'#158ebf',
+				'overlay_transparency'=>'80',
+				'position'=>'center center',
+				'repeat'=>'no-repeat',
+				'mobile_hide'=>'mobile_hide',
+				'image'=>MW_IMAGE_LIBRARY.'webs/reality/businessman.jpg',
+				'imageid'=>'',
+				'pattern'=>'',
+			),
+			'font'=>array(
+				'font-size'=>'',
+				'font-family'=>'',
+				'weight'=>'',
+				'color'=>'#e8e8e8',
+			),
+			'link_color'=>'',
+			'type'=>'basic',
+			'padding_top'=>'50',
+			'padding_bottom'=>'50',
+			'padding_left'=>array(
+				'size'=>'',
+				'unit'=>'px',
+			),
+			'padding_right'=>array(
+				'size'=>'',
+				'unit'=>'px',
+			),
+			'margin_t'=>array(
+				'size'=>'',
+			),
+			'margin_b'=>array(
+				'size'=>'',
+			),
+			'border-top'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'border-bottom'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'min-height'=>'',
+			'height_setting'=>array(
+				'is_saved'=>'1',
+				'full_height'=>'full_height',
+				'noheader'=>'noheader',
+				'centered_content'=>'centered_content',
+			),
+			'css_class'=>'',
+			'delay'=>'',
+		),
+		'content'=>array(
+			'0'=>array(
+				'type'=>'col-twothree',
+				'class'=>'',
+				'content'=>array(
+					'0'=>array(
+						'type'=>'title',
+						'content'=>'<p style="text-align: center;">'.__('Děkuji!','cms_ve').'</p>',
+						'style'=>array(
+							'font'=>array(
+								'font-size'=>'85',
+								'font-family'=>'',
+								'weight'=>'',
+								'line-height'=>'1.2',
+								'color'=>'',
+								'text-shadow'=>'none',
+							),
+							'style'=>'1',
+							'border'=>array(
+								'size'=>'1',
+								'color'=>'#d5d5d5',
+							),
+							'background-color'=>array(
+								'color1'=>'#efefef',
+								'color2'=>'',
+								'transparency'=>'100',
+							),
+							'align'=>'center',
+						),
+						'config'=>array(
+							'max_width'=>'',
+							'margin_top'=>'0',
+							'margin_bottom'=>'25',
+							'delay'=>'',
+							'animate'=>'',
+							'id'=>'',
+							'class'=>'',
+						),
+					),
+					'1'=>array(
+						'type'=>'text',
+						'content'=>'<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec venenatis est, nec ullamcorper mauris. Nullam tincidunt tortor at convallis dictum. In congue egestas porta. Aliquam blandit ornare sem, eget vulputate ante facilisis vitae. Aliquam vitae ex turpis.</p>',
+						'style'=>array(
+							'font'=>array(
+								'font-size'=>'',
+								'font-family'=>'',
+								'weight'=>'',
+								'line-height'=>'',
+								'color'=>'',
+							),
+							'li'=>'',
+							'style'=>'1',
+							'p-background-color'=>array(
+								'color1'=>'#e8e8e8',
+								'color2'=>'',
+								'transparency'=>'100',
+							),
+						),
+						'config'=>array(
+							'max_width'=>'',
+							'margin_top'=>'0',
+							'margin_bottom'=>'20',
+							'delay'=>'',
+							'animate'=>'',
+							'id'=>'',
+							'class'=>'',
+						),
+					),
+				),
+			),
+			'1'=>array(
+				'type'=>'col-three',
+				'class'=>'',
+				'content'=>array(
+				),
+			),
+		),
+	),
+);
+
+$page=array(
+  'page'=>array(      
+      'title' => __('Poděkování','cms_ve'),   
+      'slug' => __('podekovani','cms_ve'), 
+      'theme' => 'page/1/',
+  ),
+  'setting'=>array (
+      've_header' => array('show'=>'noheader'),
+      've_footer' => array('show'=>'nofooter'),
+  ),
+  'layer'=>base64_encode(serialize($temp_layer)),
+);

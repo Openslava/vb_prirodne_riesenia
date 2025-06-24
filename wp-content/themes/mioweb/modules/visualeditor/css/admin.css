@@ -1,0 +1,11 @@
+.ve_admin_editbut_container {
+  padding: 30px;
+  text-align: center;
+}
+.ve_admin_editbut_container .cms_button {
+  font-size: 20px;
+  font-weight: bold;
+  height: 55px;
+  line-height: 55px;
+  padding: 0 35px;
+}

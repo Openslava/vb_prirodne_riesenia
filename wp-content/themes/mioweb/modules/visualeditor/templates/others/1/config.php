@@ -1,0 +1,135 @@
+<?php
+$temp_layer=array(
+	'0'=>array(
+		'class'=>'',
+		'style'=>array(
+			'font'=>array(
+				'font-size'=>'',
+				'font-family'=>'',
+				'weight'=>'normal',
+				'color'=>'#ffffff',
+			),
+			'link_color'=>'',
+			'background_color'=>array(
+				'color1'=>'#2a3236',
+				'color2'=>'',
+			),
+			'background_image'=>array(
+				'position'=>'center center',
+				'repeat'=>'no-repeat',
+				'image'=>'',
+			),
+			'border-top'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'border-bottom'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'padding_top'=>'35',
+			'padding_bottom'=>'15',
+		),
+		'content'=>array(
+			'0'=>array(
+				'type'=>'col-one',
+				'class'=>'',
+				'content'=>array(
+					'0'=>array(
+						'type'=>'title',
+						'content'=>'<p>'.__('Děkujeme!','cms_ve').'</p>',
+						'style'=>array(
+							'font'=>array(
+								'font-size'=>'30',
+								'font-family'=>'Open Sans',
+								'weight'=>'300',
+								'color'=>'',
+								'text-shadow'=>'none',
+							),
+						),
+					),
+				),
+			),
+		),
+	),
+	'1'=>array(
+		'class'=>'',
+		'style'=>array(
+			'font'=>array(
+				'font-size'=>'',
+				'font-family'=>'',
+				'weight'=>'normal',
+				'color'=>'',
+			),
+			'link_color'=>'',
+			'background_color'=>array(
+				'color1'=>'#ffffff',
+				'color2'=>'',
+			),
+			'background_image'=>array(
+				'position'=>'center center',
+				'repeat'=>'no-repeat',
+				'image'=>'',
+			),
+			'border-top'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'border-bottom'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'padding_top'=>'35',
+			'padding_bottom'=>'30',
+		),
+		'content'=>array(
+			'0'=>array(
+				'type'=>'col-one',
+				'class'=>'',
+				'content'=>array(
+					'0'=>array(
+						'type'=>'title',
+						'content'=>'<p>Lorem ipsum dolor sit amet</p>',
+						'style'=>array(
+							'font'=>array(
+								'font-size'=>'20',
+								'font-family'=>'',
+								'weight'=>'normal',
+								'color'=>'',
+								'text-shadow'=>'none',
+							),
+						),
+					),
+					'1'=>array(
+						'type'=>'text',
+						'content'=>'<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare placerat turpis ac ullamcorper. Donec a dignissim ipsum. Vivamus erat arcu, placerat ac dolor nec, pharetra venenatis lorem. Sed commodo varius tortor. Ut velit urna, fermentum nec est quis, sodales dictum massa. Praesent tincidunt malesuada ipsum sit amet rhoncus. Aliquam tincidunt ullamcorper dui, nec adipiscing lacus eleifend eget.</p>',
+						'style'=>array(
+							'font'=>array(
+								'font-size'=>'',
+								'font-family'=>'',
+								'weight'=>'normal',
+								'color'=>'',
+							),
+							'li'=>'1',
+						),
+					),
+				),
+			),
+		),
+	),
+);
+$config['layer']=base64_encode(serialize($temp_layer));
+$config['setting']=array (  
+ 've_header' => array('show' => 'noheader'),
+ 've_footer' => array('show' => 'nofooter'), 
+ 've_appearance' => array('background_color' => '#eee') 
+);
+$config['config']=array(
+  'styles'=>true,
+  'hide_rows'=>true,
+  'body_class'=>'fixed_template'
+);

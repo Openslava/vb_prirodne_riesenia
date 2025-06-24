@@ -1,0 +1,110 @@
+<?php
+$temp_layer=array(
+	'0'=>array(
+		'class'=>'',
+		'style'=>array(
+			'font'=>array(
+				'font-size'=>'',
+				'font-family'=>'',
+				'weight'=>'',
+				'color'=>'',
+			),
+			'link_color'=>'',
+			'background_color'=>array(
+				'color1'=>'#007ab3',
+				'color2'=>'',
+			),
+			'background_image'=>array(
+				'position'=>'center center',
+				'repeat'=>'no-repeat',
+				'image'=>'',
+			),
+			'border-top'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'border-bottom'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'padding_top'=>'30',
+			'padding_bottom'=>'50',
+		),
+		'content'=>array(
+			'0'=>array(
+				'type'=>'col-one',
+				'class'=>'',
+				'content'=>array(
+					'0'=>array(
+						'type'=>'title',
+						'content'=>'<h1 style="text-align: center;">'.__('Jednoduchá stránka s videem','cms_ve').'</h1>',
+						'style'=>array(
+							'font'=>array(
+								'font-size'=>'35',
+								'font-family'=>'',
+								'weight'=>'',
+								'color'=>'#ffffff',
+								'text-shadow'=>'none',
+							),
+						),
+						'config'=>array(
+							'max_width'=>'',
+							'margin_top'=>'0',
+							'margin_bottom'=>'13',
+							'delay'=>'',
+							'class'=>'',
+						),
+					),
+					'1'=>array(
+						'type'=>'title',
+						'content'=>'<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>',
+						'style'=>array(
+							'font'=>array(
+								'font-size'=>'18',
+								'font-family'=>'',
+								'weight'=>'normal',
+								'color'=>'#c4d8e6',
+								'text-shadow'=>'none',
+							),
+						),
+						'config'=>array(
+							'max_width'=>'',
+							'margin_top'=>'0',
+							'margin_bottom'=>'40',
+							'delay'=>'',
+							'class'=>'',
+						),
+					),
+					'2'=>array(
+						'type'=>'video',
+						'content'=>'',
+						'style'=>array(
+							'max-width'=>'',
+							'code'=>'',
+							'align'=>'center',
+						),
+					),
+					'3'=>array(
+						'type'=>'share',
+						'content'=>'',
+						'style'=>array(
+							'show'=>array(
+								'facebook'=>'facebook',
+								'twitter'=>'twitter',
+								'google'=>'google',
+							),
+							'scheme'=>'1',
+						),
+					),
+				),
+			),
+		),
+	),
+);
+$config['layer']=base64_encode(serialize($temp_layer));
+$config['setting']=array();
+$config['config']=array(
+  'body_class'=>'fixed_width_page'
+);

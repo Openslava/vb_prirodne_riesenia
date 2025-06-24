@@ -1,0 +1,89 @@
+<?php 
+$temp_layer=array(
+	'0'=>array(
+		'class'=>'',
+		'style'=>array(
+			'background_color'=>array(
+				'color1'=>'#ba3030',
+				'color2'=>'',
+				'transparency'=>'100',
+			),
+			'background_image'=>array(
+				'position'=>'center center',
+				'repeat'=>'no-repeat',
+				'image'=>'',
+				'pattern'=>'0',
+			),
+			'font'=>array(
+				'font-size'=>'',
+				'font-family'=>'',
+				'weight'=>'',
+				'color'=>'#ffffff',
+			),
+			'link_color'=>'',
+			'type'=>'basic',
+			'padding_top'=>'10',
+			'padding_bottom'=>'10',
+			'padding_left'=>array(
+				'size'=>'',
+				'unit'=>'px',
+			),
+			'padding_right'=>array(
+				'size'=>'',
+				'unit'=>'px',
+			),
+			'margin_t'=>array(
+				'size'=>'',
+			),
+			'margin_b'=>array(
+				'size'=>'',
+			),
+			'border-top'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'border-bottom'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'min-height'=>'',
+		),
+		'content'=>array(
+			'0'=>array(
+				'type'=>'col-one',
+				'class'=>'',
+				'content'=>array(
+					'1'=>array(
+						'type'=>'text',
+						'content'=>'<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit!</p>',
+						'style'=>array(
+							'font'=>array(
+								'font-size'=>'20',
+								'font-family'=>'',
+								'weight'=>'',
+								'line-height'=>'',
+								'color'=>'',
+							),
+							'li'=>'',
+						),
+						'config'=>array(
+							'max_width'=>'',
+							'margin_top'=>'0',
+							'margin_bottom'=>'0',
+							'delay'=>'',
+							'animate'=>'',
+							'id'=>'',
+							'class'=>'',
+						),
+					),
+				),
+			),
+		),
+	),
+);
+
+$config['setting']=array();
+$config['layer']=base64_encode(serialize($temp_layer));
+$config['config']=array();

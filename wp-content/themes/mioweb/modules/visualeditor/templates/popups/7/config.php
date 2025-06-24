@@ -1,0 +1,132 @@
+<?php 
+$temp_layer=array(
+	'0'=>array(
+		'class'=>'',
+		'style'=>array(
+			'font'=>array(
+				'font-size'=>'',
+				'font-family'=>'',
+				'weight'=>'',
+				'color'=>'#cfdae3',
+			),
+			'link_color'=>'',
+			'background_color'=>array(
+				'color1'=>'#74848f',
+				'color2'=>'',
+				'transparency'=>'100',
+			),
+			'background_image'=>array(
+				'position'=>'center center',
+				'repeat'=>'no-repeat',
+				'image'=>'',
+				'pattern'=>'0',
+			),
+			'border-top'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'border-bottom'=>array(
+				'size'=>'0',
+				'style'=>'solid',
+				'color'=>'',
+			),
+			'padding_top'=>'50',
+			'padding_bottom'=>'50',
+			'padding_left'=>array(
+				'size'=>'60',
+				'unit'=>'px',
+			),
+			'padding_right'=>array(
+				'size'=>'60',
+				'unit'=>'px',
+			),
+			'type'=>'basic',
+		),
+		'content'=>array(
+			'0'=>array(
+				'type'=>'col-one',
+				'class'=>'',
+				'content'=>array(
+					'0'=>array(
+						'type'=>'title',
+						'content'=>'<h1 style="text-align: center;">Lorem ipsum dolor sit amet set doma</h1>',
+						'style'=>array(
+							'font'=>array(
+								'font-size'=>'50',
+								'font-family'=>'Open Sans',
+								'weight'=>'700',
+								'line-height'=>'',
+								'color'=>'#ffffff',
+								'text-shadow'=>'none',
+							),
+						),
+					),
+					'1'=>array(
+						'type'=>'text',
+						'content'=>'<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius sem vitae mauris aliquet, non porta orci blandit. Nam facilisis consequat leo non convallis.</p>',
+						'style'=>array(
+							'font'=>array(
+								'font-size'=>'17',
+								'font-family'=>'',
+								'weight'=>'',
+								'line-height'=>'',
+								'color'=>'',
+							),
+							'li'=>'',
+						),
+						'config'=>array(
+							'max_width'=>'',
+							'margin_top'=>'0',
+							'margin_bottom'=>'50',
+							'delay'=>'',
+							'id'=>'',
+							'class'=>'',
+						),
+					),
+					'2'=>array(
+						'type'=>'button',
+						'content'=>__('Zobrazit','cms_ve'),
+						'style'=>array(
+							'show'=>'url',
+							'link'=>array(
+								'link'=>'',
+							),
+							'popup'=>'',
+							'button'=>array(
+								'style'=>'1',
+								'font'=>array(
+									'font-size'=>'37',
+									'font-family'=>'Open Sans',
+									'weight'=>'700',
+									'color'=>'#2b2b2b',
+									'text-shadow'=>'none',
+								),
+								'background_color'=>array(
+									'color1'=>'#ffde21',
+									'color2'=>'#ffcc00',
+								),
+								'hover_color'=>array(
+									'color1'=>'',
+									'color2'=>'',
+								),
+								'corner'=>'0',
+								'border-color'=>'',
+							),
+							'align'=>'center',
+						),
+					),
+				),
+			),
+		),
+	),
+);
+
+     
+$config['setting']=array(
+    've_popup'=>array(
+        'width'=>array('size'=>'500','unit'=>'px'),
+    )
+);
+$config['layer']=base64_encode(serialize($temp_layer));
+$config['config']=array();

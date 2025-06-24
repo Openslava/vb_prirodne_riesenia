@@ -1,0 +1,38 @@
+html {
+    
+    height: 100%;
+}
+
+body {
+    background-attachment: fixed;
+    line-height: 1;
+    height: 100%;
+    background-position: center center; 
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;             
+    -moz-background-size: cover;             
+    -o-background-size: cover;             
+    background-size: cover;
+}
+#wrapper #content  {
+  max-width: 420px;
+}
+#wrapper #content  {
+  padding: 60px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+.row_content .row {
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -khtml-border-radius: 12px;
+  border-radius: 12px;
+  -webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;  
+	box-sizing: border-box; 
+}
+.row_content .row_fix_width {
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}

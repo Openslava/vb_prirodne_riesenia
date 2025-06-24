@@ -1,0 +1,324 @@
+/* Shop */
+.pay_gate_settings {
+  float: right;
+}
+
+.inline_label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+a.disabled {
+  color: #888;
+}
+
+/* Used to mark new unsaved items within editor. */
+.mws_new_item {}
+
+/* VAT values editors */
+
+.vat-values {}
+
+.vat-values input.cms_text_input {
+  width: 8em;
+  margin-right: 3px;
+}
+
+/* Errors */
+
+.mws_admin_error {
+  color: #cd0b0b;
+}
+
+div.mws_admin_error {
+  /*margin: 5px 0 0 2px;*/
+}
+
+/* Product
+*********************************************** */
+
+.mws_product {
+  position: relative;
+}
+.mws_product:hover .post_edit_bar {
+  display: block;
+}
+.mws_stock_items .mws_available {
+  color: green;
+}
+.mws_stock_items .mws_unavailable {
+   color: red;
+}
+.mws_selling_enabled, .mws_saleprice_enabled {
+  color: green;
+}
+.mws_selling_disabled, .mws_saleprice_disabled {
+  color: red;
+}
+.mws_price_sale .mws_price_sale_vatincluded {
+  text-decoration: line-through;
+}
+
+/* Product variants
+*********************************************** */
+
+/* select params box */
+.mws_variants_param_error {
+  background: #eeeeee;
+  padding: 30px;
+  margin-top: 26px;
+  text-align: center;
+}
+.mws_variants_param_error span {
+  font-size: 15px;
+  padding-bottom: 15px;
+  display: block;
+}
+
+.mws_variants_params {
+  background: #eeeeee;
+  padding: 20px;
+  margin-top: 26px;
+  display: none;
+}
+.mws_variants_params h3 {
+  text-align: center;
+}
+.mws_edit_params_list_button {
+  margin-top: 26px;
+}
+.mw_variants_parametres_buttons {
+  text-align: center;
+  padding-top: 20px;
+}
+.mws_variants_param_item {
+  padding: 3px 0;
+}
+
+.mws_variants .sublabel {
+  padding-bottom: 5px;
+}
+.mws_input_container {
+  position: relative;
+}
+.mws_variants .ve_setting_container .ve_item_body {
+    padding: 10px;
+}
+.mws_variants .set_form_row {
+    margin-top: 0;
+}
+.mws_variants.mws_stock_disabled .mws_col_stock {
+    display: none;
+}
+.mws_variants.mws_stock_enabled .mws_col_stock {
+    display: inherit;
+}
+.mws_variant_fields .mws_property {
+  float: left;
+  margin-right: 1em;
+}
+.mws_variant_definition {
+    overflow: auto;
+    padding-right: 16px;
+}
+.mws_variant_definitions .mws_property_editor, .mws_variant_definitions .mws_property_editor.cms_text_input {
+  /*max-width: 200px;*/
+}
+.mws_variant_definitions .mws_admin_error {
+  margin: 5px 0 0 2px;
+}
+.mws_variant_definition .mws_col {
+  float: left;
+  margin-right: 10px;
+  min-width: 80px;
+}
+.mws_col .sublabel {
+  white-space: nowrap;
+}
+.mws_variant_definition .mws_col:last-child {
+  margin-right: 0;
+}
+.mws_variant_definition .mws_col_property_values {
+  width: 40%;
+}
+.mws_variant_definition .mws_col_stock, .mws_variant_definition .mws_col_price {
+  width: 13%;
+}
+
+/* Label for price */
+.mws_col_price {
+  position: relative;
+}
+.mws_col_price span {
+  position: absolute;
+  right: 2px;
+  top: 50%;
+  width: 17px;
+  height: 14px;
+  margin-top: -9px;
+  color: gray;
+}
+.mws_col_price input.cms_text_input {
+  padding-right: 22px;
+  text-align: right;
+}
+
+/* upload variant image */
+.mws_variant_definition .mws_col_image {
+  min-width: 60px;
+}
+.mws_col_image .cms_uploaded_image {
+  width: 60px;
+  padding: 1px;
+  margin: 0;
+}
+.mws_col_image .cms_uploaded_image img {
+  width: 100%;
+}
+.mws_col_image .cms_upload_image_uploaded button.cms_upload_image_button {
+  display: none;
+}
+.mws_col_image .cms_clear_image_button {
+  position: absolute;
+  right: -18px;
+  top: 0;
+  width: 16px;
+  height: 16px;
+}
+.mws_col_image .cms_clear_image_button svg {
+  width: 14px;
+  height: 14px;
+}
+.mws_col_image .cms_clear_image_button path {
+  fill: #9c9c9c;
+}
+.mws_col_image .cms_clear_image_button:hover path {
+  fill: #d12121;
+}
+
+.mws_variants .cms_error_box {
+  margin-top: 10px;
+}
+/* Order
+*********************************************** */
+.post-type-mworder #post-body-content,
+.post-type-mworder #normal-sortables,
+.post-type-mworder #minor-publishing,
+.post-type-mworder h1 a.page-title-action,
+.post-type-mworder .inline {
+  display: none;
+}
+
+#mwsOrder_general label, #mwsOrder_contact label {
+  font-weight: bold;
+  vertical-align: initial;
+}
+
+#mwsOrder_general .inside,
+#mwsOrder_contact .inside,
+#mwsOrder_items .inside {
+  padding: 0;
+  margin: 0;
+}
+.mws_order_head {
+  background: #262c2f;
+  padding: 20px;
+  color: #b0b0b0;
+}
+.mws_order_head_left {
+  float: left;
+}
+.mws_order_head_right {
+  float: right;
+}
+.mws_order_number_container span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  line-height: 26px;
+}
+.mws_order_status_box {
+  padding-top: 6px;
+}
+.mws_order_content {
+  padding: 0 20px;
+  margin: 20px 0;
+}
+h3.mws_order_title {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.mws_order_info td {
+  padding: 3px 0;
+}
+.mws_order_info td:nth-child(2) {
+  padding-left: 20px;
+}
+
+.mws_order_invoice {
+  width: 100%;
+}
+.mws_order_invoice td {
+  padding: 5px 0;
+}
+.mws_order_invoice td:nth-child(1) a {
+  color: #111;
+  font-weight: bold;
+}
+.mws_order_invoice td:nth-child(4) {
+  text-align: right;
+}
+.mws_order_invoice td:nth-child(4) a {
+  margin-right: 5px;
+  line-height: 20px;
+  height: 22px;
+}
+.mws_order_payed {
+  color: #6bb137;
+}
+.mws_order_notpayed {
+  color: #e21e1e;
+}
+
+.mws_order_history  td:nth-child(2) {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+#mwsOrder_contact .mws_order_head_right a {
+  margin-left: 5px;
+  box-shadow: 0;
+}
+.mws_order_products {
+  width: 100%;
+  border-spacing: 0;
+}
+.mws_order_products th{
+  background: #262c2f;
+  padding: 20px;
+  color: #b0b0b0;
+}
+.mws_order_products td{
+  padding: 7px 20px;
+}
+.mws_order_products tr:first-child td {
+  padding-top: 27px;
+}
+.mws_order_products tr:last-child td {
+  padding-bottom: 27px;
+}
+
+/* Price formatting */
+.column-mws_priceVatIncluded span.mws_price_vatincluded {
+  display: block;
+}
+.column-mws_priceVatIncluded span.mws_price_vatexcluded {
+  font-style: italic;
+  font-size: 85%;
+}
+
+

@@ -1,0 +1,1090 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MioWeb\n"
+"POT-Creation-Date: 2017-10-04 10:06+0200\n"
+"PO-Revision-Date: 2017-10-04 10:06+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../blog_class.php:179
+msgid "Nový příspěvek blogu"
+msgstr "New post"
+
+#: ../blog_class.php:180
+msgid "Seznam příspěvků"
+msgstr "List of posts"
+
+#: ../blog_class.php:181
+msgid "Kategorie"
+msgstr "Category"
+
+#: ../blog_class.php:182
+msgid "Štítky (tagy)"
+msgstr "Tags"
+
+#: ../blog_class.php:183
+msgid "Sidebary a widgety"
+msgstr "Sidebars and widgets"
+
+#: ../blog_class.php:184 ../init.php:127 ../init.php:128 ../init.php:154
+#: ../init.php:459 ../init.php:462
+msgid "Vzhled blogu"
+msgstr "Blog design"
+
+#: ../blog_class.php:185 ../init.php:110 ../init.php:111
+msgid "Nastavení blogu"
+msgstr "Blog settings"
+
+#: ../blog_class.php:303 ../init.php:82 ../init.php:86 ../init.php:316
+#: ../init.php:319 ../templates/blog1/content-loop.php:145
+#: ../templates/blog1/single.php:16
+msgid "Komentáře"
+msgstr "Comments"
+
+#: ../elements.php:6
+msgid "Články blogu"
+msgstr "Blog posts"
+
+#: ../elements.php:7
+msgid "Výpis posledních nebo nejčtenějších článků z blogu"
+msgstr "List of the latest or favourite blog posts"
+
+#: ../elements.php:11
+msgid "Nastavení výpisu článků"
+msgstr "Last posts settings"
+
+#: ../elements.php:15
+msgid "Typ článků"
+msgstr "Post type"
+
+#: ../elements.php:19
+msgid "Poslední články"
+msgstr "Latest posts"
+
+#: ../elements.php:20 ../widgets.php:68
+msgid "Nejčtenější články"
+msgstr "Most read posts"
+
+#: ../elements.php:26
+msgid "Vypisovat články z kategorie"
+msgstr "List posts from category"
+
+#: ../elements.php:31
+msgid "Počet článků"
+msgstr "Number of posts"
+
+#: ../elements.php:37 ../init.php:375
+msgid "Zobrazení"
+msgstr "Display"
+
+#: ../elements.php:40
+msgid "Skrýt popisek"
+msgstr "Hide description"
+
+#: ../elements.php:41
+msgid "Skrýt tlačítko"
+msgstr "Hide button"
+
+#: ../elements.php:42
+msgid "Skrýt obrázek"
+msgstr "Hide the image"
+
+#: ../elements.php:47
+msgid "Text tlačítka"
+msgstr "Button text"
+
+#: ../elements.php:49 ../elements_print.php:88
+#: ../templates/blog1/content-loop.php:125
+#: ../templates/blog2/content-loop.php:146
+msgid "Celý článek"
+msgstr "Read more"
+
+#: ../elements.php:55
+msgid "Vzhled výpisu článků"
+msgstr "Design of a list of posts"
+
+#: ../elements.php:59
+msgid "Vzhled"
+msgstr "Design"
+
+#: ../elements.php:72
+msgid "Počet sloupců"
+msgstr "Number of columns"
+
+#: ../elements.php:86 ../init.php:539
+msgid "Font nadpisu"
+msgstr "Title font"
+
+#: ../elements.php:100
+msgid "Font textu"
+msgstr "Text font"
+
+#: ../functions.php:11
+msgid "Starší příspěvky"
+msgstr "Older posts"
+
+#: ../functions.php:15
+msgid "Novější příspěvky"
+msgstr "New posts"
+
+#: ../functions.php:165
+msgid "Podobné články"
+msgstr "Similar posts"
+
+#: ../functions.php:381
+msgid "Vyberte stránku blogu."
+msgstr "Select blog page."
+
+#: ../functions.php:423
+msgid "- Všechny kategorie -"
+msgstr "- All categories -"
+
+#: ../init.php:71
+msgid "Defaultní sidebar"
+msgstr "Default sidebar"
+
+#: ../init.php:83
+#, php-format
+msgid ""
+"Zobrazení komentářů lze nastavit v <a target=\"_blank\" href=\"%s"
+"\">nastavení blogu</a>."
+msgstr ""
+"Display of comments can be set up in <a target=\"_blank\" href=\"%s\">blog "
+"settings</a>."
+
+#: ../init.php:90
+msgid "Skrýt wordpressové komentáře"
+msgstr "Hide wordpress comments"
+
+#: ../init.php:91
+msgid "Skrýt facebookové komentáře"
+msgstr "Hide Facebook comments"
+
+#: ../init.php:95 ../init.php:329
+msgid "Pořadí komentářů"
+msgstr "Order of comments"
+
+#: ../init.php:99
+msgid "Použít globální nastavení"
+msgstr "Use global settings"
+
+#: ../init.php:100 ../init.php:333
+msgid "První facebookové komentáře, druhé wordpressové komentáře"
+msgstr "First Facebook comments, second wordpress comments"
+
+#: ../init.php:101 ../init.php:334
+msgid "První wordpressové komentáře, druhé facebookové komentáře"
+msgstr "First wordpress comments, second Facebook comments"
+
+#: ../init.php:120 ../init.php:121
+msgid "Blog"
+msgstr "Blog"
+
+#: ../init.php:138 ../init.php:260
+msgid "Základní nastavení"
+msgstr "Basic settings"
+
+#: ../init.php:143
+msgid "Sidebary"
+msgstr "Sidebars"
+
+#: ../init.php:144
+#, php-format
+msgid ""
+"Každému typu stránky můžete přiřadit jiný sidebar. Nové sidebary lze "
+"vytvořit v administraci wordpressu v menu <a target=\"_blank\" href=\"%s"
+"\">Vzhled -> Widgety</a>."
+msgstr ""
+"Different sidebar can be added to each site. New sidebars can be created in "
+"wordpress administration in menu <a target=\"_blank\" href=\"%s\">Design -> "
+"Widgety</a>."
+
+#: ../init.php:149
+msgid "Vlastní kódy"
+msgstr "Own codes"
+
+#: ../init.php:159
+msgid "Hlavička blogu"
+msgstr "Blog header"
+
+#: ../init.php:164
+msgid "Patička blogu"
+msgstr "Blog footer"
+
+#: ../init.php:169
+msgid "Pop-upy blogu"
+msgstr "Blog pop-ups"
+
+#: ../init.php:174
+msgid "SEO blogu"
+msgstr "Blog SEO"
+
+#: ../init.php:179
+msgid "Facebook atributy"
+msgstr "Facebook attributes"
+
+#: ../init.php:185
+msgid "SEO úvodní stránky blogu"
+msgstr "Blog homepage SEO"
+
+#: ../init.php:188
+msgid "Meta Title"
+msgstr "Meta Title"
+
+#: ../init.php:191
+msgid "Maximální doporučená délka pro titulek je 70 znaků."
+msgstr "Maximal recommended length of the title is 70 characters."
+
+#: ../init.php:192
+msgid ""
+"Výchozí hodnota tagu <code>title</code> je „název webu | popis webu“. V "
+"případě potřeby můžete obsah tagu <code>title</code> přepsat zde zadaným "
+"textem."
+msgstr ""
+"Default tag value <code>title</code> is \"web name | web description\". In "
+"case of need you can replace the content of the tag <code>title</code> by "
+"custom text."
+
+#: ../init.php:195
+msgid "Meta Desription"
+msgstr "Meta Desription"
+
+#: ../init.php:198
+msgid "Maximální doporučená délka je 150 znaků."
+msgstr "Maximal recommended length is 150 signs."
+
+#: ../init.php:199
+msgid ""
+"Meta tag <code>description</code> slouží pro krátký popis obsahu stránky. "
+"Některé vyhledávače tento tag používají pro zobrazení popisku stránky ve "
+"výsledku vyhledávání. Obsah by měl být tvořen souvislými větami s vhodně "
+"zvolenými klíčovými slovy."
+msgstr ""
+"Meta tag <code>description</code> is used for a short description of the "
+"page content. Some browsers use this tag as a page description in search "
+"results. Content should be made by contiguous sentences with well selected "
+"keywords."
+
+#: ../init.php:202
+msgid "Meta Keywords"
+msgstr "Meta Keywords"
+
+#: ../init.php:205
+msgid ""
+"Vyplnění meta tag <code>keywords</code> je další možností, jak zvýšit on-"
+"page SEO stránky. Napište zde několik klíčových slov, které souvisejí s "
+"obsahem stránky. Nepřehánějte to ale s jejich množstvím."
+msgstr ""
+"Filling in the meta tag <code>keywords</code> is another way how to increase "
+"on-page SEO of the page. Put some keywords related to the content of the "
+"page here. Try to avoid of using too many keywords."
+
+#: ../init.php:208
+msgid "Meta Robots"
+msgstr "Meta Robots"
+
+#: ../init.php:212
+msgid "<code>noindex</code> pro tuto stránku"
+msgstr "<code>noindex</code> for this page"
+
+#: ../init.php:213
+msgid "<code>nofollow</code> pro tuto stránku"
+msgstr "<code>nofollow</code> for this page"
+
+#: ../init.php:214
+msgid "<code>noarchive</code> pro tuto stránku"
+msgstr "<code>noarchive</code> for this page"
+
+#: ../init.php:216
+msgid ""
+"Meta tag <code>robots</code> umožňuje zakázat robotům indexování obsahu "
+"(noindex), sledování odkazů (nofollow) a ukládání casch kopií webu "
+"(noarchive)."
+msgstr ""
+"Meta tag <code>robots</code> allows to ban robots to index content "
+"(noindex), link following (nofollow) and saving copy of the webpage into the "
+"cache (noarchive)."
+
+#: ../init.php:221
+msgid "Facebookové atributy hlavní stránky blogu"
+msgstr "Facebook attributes of blog's home page"
+
+#: ../init.php:228
+msgid ""
+"Toto nastavení, určí facebookové atributy úvodní stránky blogu. Pro kontrolu "
+"zobrazení na Facebooku můžete použít debugger na adrese: <a href=\"https://"
+"developers.facebook.com/tools/debug/\" target=\"_blank\">https://developers."
+"facebook.com/tools/debug/</a>, kde stačí zadat URL stránky, kterou chcete "
+"zkontrolovat."
+msgstr ""
+"This settings defines facebook atributes of the blog main page. For check of "
+"the view on the Facebook you can use debugger on address: <a href=\"https://"
+"developers.facebook.com/tools/debug/\" target=\"_blank\">https://developers."
+"facebook.com/tools/debug/</a>, where you can put just URL of the page you "
+"want to check. "
+
+#: ../init.php:231
+msgid "Facebookový titulek"
+msgstr "Facebook title"
+
+#: ../init.php:234
+msgid ""
+"Meta tag <code>og:title</code> určuje nadpis stránky při jejím sdílení na "
+"Facebooku. Pokud jej nenastavíte, použije se název stránky."
+msgstr ""
+"Meta tag <code>og:title</code> defines page title when it is shared on "
+"Facebook. If it is not defined, then the page title will be used."
+
+#: ../init.php:237
+msgid "Facebookový popis"
+msgstr "Facebook description"
+
+#: ../init.php:240
+msgid ""
+"Meta tag <code>og:description</code> určuje popis stránky při jejím sdílení "
+"na Facebooku."
+msgstr ""
+"Meta tag <code>og:description</code> defines page description when it is "
+"shared on Facebook."
+
+#: ../init.php:243
+msgid "Facebookový obrázek (og:image)"
+msgstr "Facebook image (og:image)"
+
+#: ../init.php:246
+msgid ""
+"Pomocí meta tagu <code>og:image</code> můžete Facebooku přikázat, jaký "
+"obrázek má použít při sdílení této stránky."
+msgstr ""
+"Using meta tag <code>og:image</code> you can order Facebook which picture "
+"shall be used when this page is shared."
+
+#: ../init.php:263
+msgid "Stránka blogu"
+msgstr "Blog page"
+
+#: ../init.php:267
+msgid "Zobrazit blog na úvodní stránce"
+msgstr "Display blog on the home page"
+
+#: ../init.php:268
+msgid "Zobrazit blog na stránce"
+msgstr "Display blog on page"
+
+#: ../init.php:272
+msgid "Odkaz v logu v hlavičce blogu"
+msgstr "Link on logo in blog header"
+
+#: ../init.php:276
+msgid "Odkazovat na úvodní stránku blogu"
+msgstr "Link to blog's home page"
+
+#: ../init.php:277
+msgid "Odkazovat na úvodní stránku webu"
+msgstr "Link to web home page"
+
+#: ../init.php:280
+msgid "Vyberte cíl odkazu loga blogu."
+msgstr "Select target of blog logo's link"
+
+#: ../init.php:287
+msgid "Obsah za článkem blogu"
+msgstr "Content after blog post"
+
+#: ../init.php:293
+msgid ""
+"Tento obsah se bude zobrazovat na konci každého článku blogu, což je skvělé "
+"místo k umístění magnetu nebo reklamy."
+msgstr ""
+"This content will be shown at the end of every blog post, which is the best "
+"place for magnet or advertisement."
+
+#: ../init.php:297
+msgid "Obsah"
+msgstr "Content"
+
+#: ../init.php:303
+msgid " - Bez obsahu - "
+msgstr "- No content -"
+
+#: ../init.php:304
+msgid "Upravit vybraný obsah"
+msgstr "Changed selected content"
+
+#: ../init.php:305
+msgid "Duplikovat vybraný obsah"
+msgstr "Duplicate selected content"
+
+#: ../init.php:306
+msgid "Vytvořit nový obsah"
+msgstr "Create new content"
+
+#: ../init.php:307
+msgid "Smazat vybraný obsah"
+msgstr "Delete selected content"
+
+#: ../init.php:323
+msgid "Zobrazit wordpressové komentáře pod každým článkem"
+msgstr "Display wordpress comments below each post"
+
+#: ../init.php:324
+msgid "Zobrazit facebookové komentáře pod každým článkem"
+msgstr "Display Facebook comments below each post"
+
+#: ../init.php:338 ../init.php:341
+msgid "Wordpress nastavení komentářů"
+msgstr "Wordpress comments settings"
+
+#: ../init.php:348
+msgid "Tlačítka sociálních sítí"
+msgstr "Social network buttons"
+
+#: ../init.php:351
+msgid "V detailu článku"
+msgstr "In post's detail"
+
+#: ../init.php:355 ../init.php:366
+msgid "Zobrazit tlačítko Facebooku"
+msgstr "Display Facebook button"
+
+#: ../init.php:356 ../init.php:367
+msgid "Zobrazit tlačítko sdílet na Facebooku"
+msgstr "Display button Share on Facebook"
+
+#: ../init.php:357
+msgid "Zobrazit tlačítko Twitteru"
+msgstr "Display Twitter button"
+
+#: ../init.php:358
+msgid "Zobrazit tlačítko Google+"
+msgstr "Display Google+ button"
+
+#: ../init.php:362
+msgid "Ve výpisu článků"
+msgstr "In list of posts"
+
+#: ../init.php:382
+msgid "Skrýt autorbox v článcích"
+msgstr "Hide authorbox in posts"
+
+#: ../init.php:383
+msgid "Skrýt výpis podobných článků"
+msgstr "Hide list of similar posts"
+
+#: ../init.php:384
+msgid "Skrýt popisek ve výpis podobných článků"
+msgstr "Hide the description in related posts list"
+
+#: ../init.php:385
+msgid "Skrýt datum zveřejnění článků"
+msgstr "Hide publication date of posts"
+
+#: ../init.php:393
+msgid "Zobrazit počet návštěvníků článku"
+msgstr "Display number of post's visitors"
+
+#: ../init.php:401
+msgid "Sidebar blogu (úvodní stránky)"
+msgstr "Sidebar of the blog (home page)"
+
+#: ../init.php:407
+msgid "Sidebar kategorií"
+msgstr "Sidebar of categories"
+
+#: ../init.php:413
+msgid "Sidebar příspěvků"
+msgstr "Sidebar of posts"
+
+#: ../init.php:419
+msgid "Sidebar autorů"
+msgstr "Sidebar of authors"
+
+#: ../init.php:425
+msgid "Sidebar tagů"
+msgstr "Sidebar of tags"
+
+#: ../init.php:431
+msgid "Sidebar vyhledávání"
+msgstr "Sidebar of search"
+
+#: ../init.php:439
+msgid "Skripty v hlavičce"
+msgstr "Scripts in header"
+
+#: ../init.php:444
+msgid "Skripty v patičce"
+msgstr "Scripts in footer"
+
+#: ../init.php:449
+msgid "Vlastní css styly (platné pro blog)"
+msgstr "Own css styles (valid for blog)"
+
+#: ../init.php:469 ../init.php:533
+msgid "Barva pozadí"
+msgstr "Background colour"
+
+#: ../init.php:477
+msgid "Obrázek na pozadí"
+msgstr "Background image"
+
+#: ../init.php:494
+msgid "Zobrazit sidebar blogu"
+msgstr "Show blog sidebar"
+
+#: ../init.php:497
+msgid "Zarovnání sidebaru"
+msgstr "Sidebar alignement"
+
+#: ../init.php:503
+msgid "Sidebar napravo"
+msgstr "Sidebar on the right"
+
+#: ../init.php:507
+msgid "Sidebar nalevo"
+msgstr "Sidebar on the left"
+
+#: ../init.php:510
+msgid "Můžete zvolit, zda chcete mít sidebar na pravé nebo levé straně."
+msgstr "You can choose if you want to have sidebar on the right or left side."
+
+#: ../init.php:514
+msgid "Font nadpisu sidebaru"
+msgstr "Font of sidebar's title"
+
+#: ../init.php:530
+msgid "Vzhled pruhu s nadpisem"
+msgstr "Title bar appearance"
+
+#: ../init.php:556
+msgid "Vzhled výpisu příspěvků"
+msgstr "Post list appearance"
+
+#: ../init.php:559
+msgid "Struktura výpisu příspěvků"
+msgstr "Structure of the list of entries"
+
+#: ../init.php:566
+msgid "Výpis s obrázkem nad textem"
+msgstr "List with image above the text"
+
+#: ../init.php:570
+msgid "Výpis s obrázkem napravo"
+msgstr "List with image on the right side"
+
+#: ../init.php:574
+msgid "Více sloupcový výpis článků"
+msgstr "Post list with more columns"
+
+#: ../init.php:581
+msgid "Mansory zobrazení"
+msgstr "Masonry view"
+
+#: ../init.php:583
+msgid "Aktivovat mansory zobrazení"
+msgstr "Activate masonry view"
+
+#: ../init.php:584
+msgid ""
+"Masonry zobrazení znamená, že jednotlivé boxy s články se budou inteligentně "
+"skládat do mřížky pod sebe podle jejich délky a podle dostupného místa."
+msgstr ""
+"Masonry view means that boxes with posts will be stacked into the grid in "
+"according to their length and available space."
+
+#: ../init.php:590
+msgid "Délka popisku článku (počet slov)"
+msgstr "Length of the post description (number of words)"
+
+#: ../init.php:592
+msgid "Slov"
+msgstr "Words"
+
+#: ../init.php:593
+msgid "Defaultně 55 slov."
+msgstr "55 words by default."
+
+#: ../init.php:597
+msgid "Tlačítko ve výpisu příspěvků"
+msgstr "Button in post list"
+
+#: ../init.php:599
+msgid "Zobrazit tlačítko \"Celý článek\" ve výpisu článků"
+msgstr "Show \"Whole post\" button in post list"
+
+#: ../init.php:604
+msgid "Barva tlačítka"
+msgstr "Button color"
+
+#: ../init.php:610
+msgid "Font nadpisu ve výpisu článků"
+msgstr "Font of title in list of posts"
+
+#: ../init.php:622
+msgid "Font popisku ve výpisu článků"
+msgstr "Font of description in list of posts"
+
+#: ../init.php:639 ../init.php:643
+msgid "Vzhled detailu článku"
+msgstr "Post detail appearance"
+
+#: ../init.php:659
+msgid "Nadpisy a odrážky v textech"
+msgstr "Headlines and bullets in text"
+
+#: ../init.php:662
+msgid "Nadpis 1 (H1)"
+msgstr "Title 1 (H1)"
+
+#: ../init.php:671
+msgid "Nadpis 2 (H2)"
+msgstr "Title 2 (H2)"
+
+#: ../init.php:680
+msgid "Nadpis 3 (H3)"
+msgstr "Title 3 (H3)"
+
+#: ../init.php:689
+msgid "Nadpis 4 (H4)"
+msgstr "Title 4 (H4)"
+
+#: ../init.php:698
+msgid "Nadpis 5 (H5)"
+msgstr "Title 5 (H5)"
+
+#: ../init.php:707
+msgid "Nadpis 6 (H6)"
+msgstr "TItle 6 (H6)"
+
+#: ../init.php:716
+msgid "Odrážky v textu"
+msgstr "Paragraphs in text"
+
+#: ../init.php:721
+msgid "Styl odrážek"
+msgstr "Style of paragraphs"
+
+#: ../init.php:732
+msgid "Vlastní fonty pro blog (nepřebírat fonty webu)"
+msgstr "Custom fonts for blog (do not use fonts from website)"
+
+#: ../init.php:735
+msgid "Font nadpisů"
+msgstr "Font of titles"
+
+#: ../init.php:743
+msgid "Globálně nastaví font u všech nadpisů v obsahu stránek blogu."
+msgstr "It will set font for all titles in the content of blog pages globally."
+
+#: ../init.php:746
+msgid "Font textů"
+msgstr "Font of texts"
+
+#: ../init.php:758
+msgid "Barva odkazů"
+msgstr "Colour of links"
+
+#: ../init.php:768 ../init.php:789
+msgid "Použít"
+msgstr "Use"
+
+#: ../init.php:773
+msgid "Patičku webu"
+msgstr "Web footer"
+
+#: ../init.php:774
+msgid "Vlastní patičku"
+msgstr "Own footer"
+
+#: ../init.php:794
+msgid "Hlavičku webu"
+msgstr "Web header"
+
+#: ../init.php:795
+msgid "Vlastní hlavičku"
+msgstr "Own header"
+
+#: ../templates/blog1/archive.php:6 ../templates/blog2/archive.php:6
+#, php-format
+msgid "Archiv dne: %s"
+msgstr "Archive of the day: %s"
+
+#: ../templates/blog1/archive.php:8 ../templates/blog2/archive.php:8
+#, php-format
+msgid "Archiv měsíce: %s"
+msgstr "Archive of the month: %s"
+
+#: ../templates/blog1/archive.php:10 ../templates/blog2/archive.php:10
+#, php-format
+msgid "Archiv roku: %s"
+msgstr "Archive of the year: %s"
+
+#: ../templates/blog1/archive.php:12 ../templates/blog2/archive.php:12
+msgid "Archiv"
+msgstr "Archive"
+
+#: ../templates/blog1/author.php:3
+msgid "Autor"
+msgstr "Author"
+
+#: ../templates/blog1/author.php:9
+msgid "O autorovi"
+msgstr "About the author"
+
+#: ../templates/blog1/author.php:20 ../templates/blog1/single.php:164
+#: ../templates/blog2/author.php:24 ../templates/blog2/single.php:171
+msgid "Webová stránka"
+msgstr "Web page"
+
+#: ../templates/blog1/author.php:21 ../templates/blog1/single.php:165
+#: ../templates/blog2/author.php:25 ../templates/blog2/single.php:172
+msgid "Google+"
+msgstr "Google+"
+
+#: ../templates/blog1/author.php:22 ../templates/blog1/single.php:166
+#: ../templates/blog2/author.php:26 ../templates/blog2/single.php:173
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../templates/blog1/author.php:23 ../templates/blog1/single.php:167
+#: ../templates/blog2/author.php:27 ../templates/blog2/single.php:174
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../templates/blog1/author.php:24 ../templates/blog1/single.php:168
+#: ../templates/blog2/author.php:28 ../templates/blog2/single.php:175
+msgid "YouTube"
+msgstr "YouTube"
+
+#: ../templates/blog1/author.php:25 ../templates/blog1/single.php:169
+#: ../templates/blog2/author.php:29 ../templates/blog2/single.php:176
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: ../templates/blog1/category.php:3
+msgid "Kategorie:"
+msgstr "Category:"
+
+#: ../templates/blog1/content-loop.php:57
+#: ../templates/blog2/content-loop.php:57
+msgid "Zadanému řetězci neodpovídá žádný článek."
+msgstr "This chain does not match any posts."
+
+#: ../templates/blog1/content-loop.php:59
+#: ../templates/blog2/content-loop.php:59
+msgid "V této kategorii se nenachází žádný článek."
+msgstr "There are no posts in this category."
+
+#: ../templates/blog1/content-loop.php:145 ../templates/blog1/single.php:16
+msgid "Komentář"
+msgstr "Comment"
+
+#: ../templates/blog1/content-loop.php:145 ../templates/blog1/single.php:16
+msgid "Komentářů"
+msgstr "Comments"
+
+#: ../templates/blog1/search.php:3 ../templates/blog2/search.php:5
+msgid "Výsledek vyhledávání"
+msgstr "Search result"
+
+#: ../templates/blog1/single.php:113 ../templates/blog2/single.php:120
+msgid "Tagy:"
+msgstr "Tags:"
+
+#: ../templates/blog1/tag.php:3
+msgid "Štítek: "
+msgstr "Tag:"
+
+#: ../templates/blog2/author.php:10
+msgid "Články autora"
+msgstr "Author archive"
+
+#: ../templates/blog2/category.php:14
+msgid "Články kategorie"
+msgstr "Category archive"
+
+#: ../templates/blog2/search.php:6
+msgid "Vyhledávání slova"
+msgstr "Search for word"
+
+#: ../templates/blog2/tag.php:12
+msgid "Články pro štítek"
+msgstr "Tag archive"
+
+#: ../widgets.php:18
+msgid "Zobrazí nejnovější nebo nejčtenější příspěvky s obrázkem."
+msgstr "Show the newest or favourite posts with image"
+
+#: ../widgets.php:19
+msgid "Nejnovější/Nejčtenější příspěvky s obrázkem"
+msgstr "Newest/Favourite posts with image"
+
+#: ../widgets.php:45 ../widgets.php:60
+msgid "Typ článku:"
+msgstr "Post type:"
+
+#: ../widgets.php:49
+msgid "Čtvercové náhledy"
+msgstr "Square preview"
+
+#: ../widgets.php:53
+msgid "Náhledy v poměru 4:3"
+msgstr "4:3 preview"
+
+#: ../widgets.php:57
+msgid "Skrýt náhledové obrázky"
+msgstr "Hide preview images"
+
+#: ../widgets.php:64
+msgid "Nejnovější články"
+msgstr "Latest posts"
+
+#: ../widgets.php:106
+msgid "Recent Posts"
+msgstr "Recent Posts"
+
+#: ../widgets.php:190
+msgid "Zobrazí seznam autorů blogu."
+msgstr "Will display list of blog authors."
+
+#: ../widgets.php:191
+msgid "Seznam autorů"
+msgstr "List of authors"
+
+#: ../widgets.php:236
+msgid "Autoři"
+msgstr "Authors"
+
+#: ../widgets.php:252
+msgid "článků"
+msgstr "posts"
+
+#: ../widgets.php:278
+msgid "Vykreslí formulář z vašeho e-mailmarketingového nástroje."
+msgstr "Will create a form from your e-mail marketing tool."
+
+#: ../widgets.php:279
+msgid "Formulář"
+msgstr "Form"
+
+#: ../widgets.php:303
+msgid "Formulář:"
+msgstr "Form:"
+
+#: ../widgets.php:311
+msgid "Nadpis nad formulářem:"
+msgstr "Title above form:"
+
+#: ../widgets.php:316
+msgid "Text nad formulářem:"
+msgstr "Text above form:"
+
+#: ../widgets.php:323
+msgid "Text tlačítka:"
+msgstr "Button text:"
+
+#: ../widgets.php:329
+msgid "Font tlačítka formuláře:"
+msgstr "Font of form's button:"
+
+#: ../widgets.php:334
+msgid "Barva tlačítka formuláře:"
+msgstr "Colour of form's button:"
+
+#: ../widgets.php:421
+msgid "Odeslat"
+msgstr "Send"
+
+#: ../widgets.php:423
+msgid "Vložte svůj e-mail."
+msgstr "Insert your e-mail."
+
+#~ msgid "Výhledávání slova"
+#~ msgstr "Search for word"
+
+#~ msgid "Poslední články blogu"
+#~ msgstr "Last posts on blog"
+
+#~ msgid "Výpis posledních článků z blogu"
+#~ msgstr "List of last posts"
+
+#~ msgid "Facebookové nastavení"
+#~ msgstr "Facebook settings"
+
+#~ msgid ""
+#~ "Toto nastavení, určí facebookové atributy úvodní stránky blogu. Pokud "
+#~ "máte nastavené, aby se blog zobrazoval na nějaké stránce, je vhodnější "
+#~ "použít nastavení této stránky. Pokud máte blog nastavený jako úvodní "
+#~ "stránku, potom je potřeba její facebookové atributy nastavit zde. "
+#~ "Facebookové atributy definují to, jak se bude stránka zobrazovat na "
+#~ "Facebooku při jejím sdílení. Pro kontrolu zobrazení na Facebooku můžete "
+#~ "použít debugger na adrese: <a href=\"https://developers.facebook.com/"
+#~ "tools/debug/\" target=\"_blank\">https://developers.facebook.com/tools/"
+#~ "debug/</a>, kde stačí zadat URL stránky, kterou chcete zkontrolovat."
+#~ msgstr ""
+#~ "This settings will define attributes of blog's home page. If your blog is "
+#~ "displayed on particular site, then it is better to use settings of that "
+#~ "page. If your blog is set as a home page, then it is necessary to set its "
+#~ "Facebook attributes here. Facebook attributes state how the page will be "
+#~ "displayed on Facebook when it is shared. To check its appearance on "
+#~ "Facebook you can use debugger on the address: <a href=\"https://"
+#~ "developers.facebook.com/tools/debug/\" target=\"_blank\">https://"
+#~ "developers.facebook.com/tools/debug/</a>, where you have to insert URL "
+#~ "address of the page which you want to check. "
+
+#~ msgid "Klasický pop-up"
+#~ msgstr "Common pop-up"
+
+#~ msgid ""
+#~ "Tento pop-up se zobrazí po načtení stránky nebo při splnění zadané "
+#~ "podmínky v pokročilém nastavení."
+#~ msgstr ""
+#~ "This pop-up will be displayed when the page is loaded or if defined "
+#~ "condition from an advanced settings is met."
+
+#~ msgid "Zobrazit pop-up"
+#~ msgstr "Show pop-up"
+
+#~ msgid "Po načtení stránky"
+#~ msgstr "After loadinng of the page"
+
+#~ msgid "Pokročilé nastavení"
+#~ msgstr "Advanced settings"
+
+#~ msgid "Zobrazit po x sekundách"
+#~ msgstr "Display after x seconds"
+
+#~ msgid "Pop-up se zobrazí po x sekundách od načtení stránky."
+#~ msgstr "Pop-up will be displayed after x seconds since loading of the page."
+
+#~ msgid "Zobrazit po odskrolování"
+#~ msgstr "Display after scrolling"
+
+#~ msgid ""
+#~ "Pop-up se zobrazí po odskrolování zadané části stránky (v % nebo v px)."
+#~ msgstr ""
+#~ "Pop-up will be displayed after defined part of the page was scrolled (in "
+#~ "% or px)-"
+
+#~ msgid "Zobrazit po naskrolování na prvek s CSS selektorem"
+#~ msgstr "Display after scrolling on the element with CSS selector"
+
+#~ msgid ".class nebo #id"
+#~ msgstr ".class or #id"
+
+#~ msgid ""
+#~ "Pop-up se zobrazí po naskrolování na prvek stránky se zadaným CSS "
+#~ "selektorem."
+#~ msgstr ""
+#~ "Pop-up will be displayed after scrolling on page element with defined CSS "
+#~ "selector."
+
+#~ msgid "Exit pop-up"
+#~ msgstr "Exit pop-up"
+
+#~ msgid ""
+#~ "Tento pop-up se zobrazí v momentě, kdy uživatel vyjede myší do horní "
+#~ "části prohlížeče."
+#~ msgstr ""
+#~ "This pop-up will be displayed on the moment when user will move its "
+#~ "cursor to the upper part of browser."
+
+#~ msgid "Vyberte stránku, která má sloužit jako úvodní stránka blogu."
+#~ msgstr "Select page which shall be the home page of blog"
+
+#~ msgid "Odkaz v logu"
+#~ msgstr "Link in log"
+
+#~ msgid "Sociální sítě"
+#~ msgstr "Social networks"
+
+#~ msgid "Styl blogu"
+#~ msgstr "Blog style"
+
+#~ msgid "Struktura blogu"
+#~ msgstr "Blog structure"
+
+#~ msgid "Toto nastavení ovlivňuje zobrazení sidebaru s widgety na blogu."
+#~ msgstr ""
+#~ "This settings has an impact on display of sidebar with widgets on blog."
+
+#~ msgid ""
+#~ "Můžete zvolit, zda chcete mít sidebar na pravé nebo levé straně nebo zda "
+#~ "chcete sidebar skrýt."
+#~ msgstr ""
+#~ "You can choose if you want to have a sidebar on the left/right side or if "
+#~ "you want to hide it."
+
+#~ msgid "Pozadí blogu"
+#~ msgstr "Blog background"
+
+#~ msgid "Základní formátování textů"
+#~ msgstr "Basic text format"
+
+#~ msgid "Pruh s nadpisem stránky"
+#~ msgstr "Stripe with page title"
+
+#~ msgid "Fonty výpisu článků"
+#~ msgstr "Fonts of list of posts"
+
+#~ msgid "Fonty sidebaru"
+#~ msgstr "Sidebar fonts"
+
+#~ msgid "Nadpisy v textu"
+#~ msgstr "Titles in text"
+
+#~ msgid "Obsah patičky"
+#~ msgstr "Footer content"
+
+#~ msgid "Koncovka patičky"
+#~ msgstr "Footer ending"
+
+#~ msgid "Skrýt koncovku patičky"
+#~ msgstr "Hide footer ending"
+
+#~ msgid "Typ koncovky patičky"
+#~ msgstr "Type of footer ending"
+
+#~ msgid "Copyrightový text"
+#~ msgstr "Copyright text"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Pozadí koncovky patičky"
+#~ msgstr "Footer ending background"
+
+#~ msgid "Obrázek na pozadí koncovky patičky"
+#~ msgstr "Background image of footer ending"
+
+#~ msgid "Font"
+#~ msgstr "Font"
+
+#~ msgid "Pokročilé nastavení patičky"
+#~ msgstr "Footer advanced settings"
+
+#~ msgid "Šířka patičky"
+#~ msgstr "Footer width"
+
+#~ msgid "Zobrazí nejnovější příspěvky s obrázkem."
+#~ msgstr "Will display the newest entries with picture."
+
+#~ msgid "Nejnovější příspěvky s obrázkem"
+#~ msgstr "Newest entries with picture"
+
+#, fuzzy
+#~ msgid "Nadpis"
+#~ msgstr "Title 1 (H1)"
+
+#, fuzzy
+#~ msgid "Počet příspěvků"
+#~ msgstr "List of posts"

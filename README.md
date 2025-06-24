@@ -1,0 +1,1 @@
+# vb_prirodne_riesenia
